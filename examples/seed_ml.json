@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What is the difference between supervised and unsupervised learning?",
+    "answer": "Supervised learning uses labelled training data where input-output pairs are provided, and the model learns to map inputs to known outputs. Common tasks include classification and regression. Unsupervised learning works with unlabelled data and discovers hidden patterns, structures, or groupings. Common tasks include clustering, dimensionality reduction, and anomaly detection. The key distinction is whether the training data includes target labels."
+  },
+  {
+    "question": "When should I use gradient boosting vs a neural network?",
+    "answer": "Use gradient boosting (XGBoost, LightGBM) for tabular/structured data with moderate size — it typically outperforms neural networks on structured data and trains faster. Use neural networks for unstructured data like images, text, or audio, or when you have very large datasets where deep learning can learn complex representations. Gradient boosting also tends to be more interpretable and requires less hyperparameter tuning."
+  },
+  {
+    "question": "Explain the bias-variance tradeoff.",
+    "answer": "The bias-variance tradeoff is a fundamental concept in machine learning. Bias is error from overly simplistic model assumptions — high bias means the model underfits and misses relevant patterns. Variance is error from sensitivity to small fluctuations in training data — high variance means the model overfits and captures noise. The goal is to find the sweet spot: a model complex enough to capture the true pattern but not so complex that it memorises noise. Techniques like cross-validation, regularisation, and ensemble methods help manage this tradeoff."
+  }
+]
