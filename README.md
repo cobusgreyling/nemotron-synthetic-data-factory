@@ -1,3 +1,5 @@
+![Nemotron Synthetic Data Factory](images/cover.jpg)
+
 # Nemotron Synthetic Data Factory
 
 **Generate, score, filter, and export training data using NVIDIA Nemotron models.**
